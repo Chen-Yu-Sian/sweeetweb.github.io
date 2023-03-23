@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/about.css">
+<title> 關於我們</title>
+</head>
+製作banner下方區塊(貼在header下方)-----------------------------------------------
+<div id="banner"></div>
+      <div class="container mb-3">
+        <div class="row no-gutters">
+          <div class="col-lg align-self-center text-center">
+            <h3 class="title mt-3">| 關於我們 <small>About Us</small></h3>
+            <p> 吃一口讓你宛如置身巴黎街頭，每一口都是滿滿的幸福。</p>
+            <p> 嚴選獨家法式香草佐料<br /> 時尚、純手工製作<br /> 
+            全台第一家上市總店<br /> 採用台灣當季新鮮特產水果</p>
+          </div>
+          <div class="col-lg"></div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg align-self-center text-center">
+            <h3 class="title mt-3">| 店家資訊<small>About Us</small></h3>
+            <p> 營業時間：12:00p.m. ~ 20:00p.m.<br /> 電話：02-12345678<br />
+            地址：台中市中區美術路二段102 號</p>
+          </div>
+          <div class="col-lg order-lg-first"></div>
+        </div>
+      </div>
+
+
+
+<img src="images/cupcake.jpg" class="img-fluid">
+<img src="images/macarons.jpg" class="img-fluid">
+
+
+製作footer 區-----------------------------
+<footer class="text-center bg-dark text-white py-2">© 2018 All Rights Reserved.</footer>
+
+
+
+css---------------------------
+body {
+font-family: Microsoft JhengHei;
+}
+
+#banner {
+background-image: url(../images/banner.jpg);
+background-position: center center;
+background-size: cover;
+height: 300px;
+margin-top: 3.5rem;
+}
+
+.title {
+color: #FA8072;
+font-weight: bold;
+}
